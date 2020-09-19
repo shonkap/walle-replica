@@ -1,0 +1,6 @@
+need to clear service files from: /etc/systemd/system/
+not the walle one tho
+
+remove "sudo python" from bottem of etc/profile file accessed via "sudo vim /etc/profile
+
+maybe way to disable those old one too?
