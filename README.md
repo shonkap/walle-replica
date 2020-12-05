@@ -7,7 +7,7 @@ Robot and controller code for a Wall-E replica robot. For more information about
 <br />
 <br />
 
-##Updated Section For Custome parts
+# Updated Section For Custome parts
 For the modified STLs for the custom build we have done you can go here: https://drive.google.com/drive/folders/19-BJtZCKjTW4F1Stld3bl_mBKVYXbMlV?usp=sharing Check these parts and see what they replace.
 Motors Used: https://www.amazon.com/uxcell-Motor-Encoder-111RPM-Ratio/dp/B0792SJ2ZP/ref=sr_1_37?dchild=1&keywords=uxcell+Gear+Motor+with+Encoder+DC+12V&qid=1607153132&s=hi&sr=1-37
 
