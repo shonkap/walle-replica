@@ -60,6 +60,7 @@ The web interface is programmed in Python and uses *Flask* to generate a server.
 1. Connect to the computer to the micro-controller with a USB cable. Ensure that the correct *Board* and *Port* are selected in the *Tools* menu.
 1. Upload the sketch to the micro-controller.
 
+#### NO! Do not follow this!
 ![](/images/wall-e_wiring_diagram.jpg)
 *Diagram showing the wiring of the robot's electronic components*
 
