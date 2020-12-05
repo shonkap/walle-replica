@@ -20,11 +20,12 @@ Led Driver for Led Panel: https://www.amazon.com/HiLetgo-MAX7219-Matrix-Display-
 
 ## Arduino Code (wall-e)
 Main program to control the motors and servos of the robot. Features include:
-1. An animation queue, keeping track of the next servo movements the robot needs to perform.
-1. A random movement generator, allowing the robot to autonomously move and appear animated.
+1. Removed Currently (An animation queue, keeping track of the next servo movements the robot needs to perform.)
+1. Removed Currently (A random movement generator, allowing the robot to autonomously move and appear animated.)
 1. Velocity control of all servo motors, facilitating smooth accelerations and decelerations. 
 1. Non-blocking serial parsing, allowing the movements of the robot to be remote controlled.
-1. Battery level monitoring using a potential divider circuit.
+1. ???Battery level monitoring using a potential divider circuit.???
+1. Code to run Led Panel showing battery level.
 
 
 ## Raspberry Pi Web Server (web_interface)
@@ -87,7 +88,7 @@ The web interface is programmed in Python and uses *Flask* to generate a server.
                         {150,360}}; // arm right
     ```
 
-#### Battery Level Detection
+#### Battery Level Detection - will fix this in near future.
 When using batteries to power the robot, it is important to keep track of how much power is left. Some batteries may break if they are over-discharged, and the SD card of the Raspberry Pi may become corrupted if not enough power is delivered.
 1. To use the battery level detection feature on the Arduino, connect the following resistors and wiring as shown in the image below. The resistors (potential divider) reduce the 12V voltage down to a value below 5V, which is safe for the Arduino to measure using its analogue pins. The recommended resistor values are `R1 = 100kΩ` and `R2 = 47kΩ`.
 1. Uncomment line 50 in the main Arduino sketch *wall-e.ino*.
