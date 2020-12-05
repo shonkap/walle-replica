@@ -6,6 +6,7 @@
 Robot and controller code for a Wall-E replica robot. For more information about the robot, visit https://wired.chillibasket.com/3d-printed-wall-e/
 <br />
 <br />
+For the modified STLs for the custom build we have done you can go here: https://drive.google.com/drive/folders/19-BJtZCKjTW4F1Stld3bl_mBKVYXbMlV?usp=sharing Check these parts and see what they replace.
 
 ## Arduino Code (wall-e)
 Main program to control the motors and servos of the robot. Features include:
