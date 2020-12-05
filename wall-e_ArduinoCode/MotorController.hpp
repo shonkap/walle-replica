@@ -44,13 +44,13 @@ MotorController::MotorController(uint8_t _dirPin, uint8_t _pwmPin, uint8_t _brkP
   digitalWrite(dirPin, HIGH);
 
   reverse = false;
-  if (brakeEnabled) {
-    digitalWrite(brkPin, HIGH);
-    brake = true;
-  } else {
-    digitalWrite(brkPin, LOW);
-    brake = false;
-  }
+  //if (brakeEnabled) {
+  // digitalWrite(brkPin, HIGH);
+  //  brake = true;
+  //} else {
+  //  digitalWrite(brkPin, LOW);
+  //  brake = false;
+  //}
 }
 
 MotorController::MotorController(uint8_t _dirPin, uint8_t _pwmPin, uint8_t _brkPin) {
@@ -78,29 +78,30 @@ void MotorController::setSpeed(int pwmValue) {
   else if (pwmValue < -255) pwmValue = -255;
   
   // Forward direction
-  if (pwmValue > 0 && reverse) {
+  if (pwmValue > 0) { // && reverse
     digitalWrite(dirPin, HIGH);
     reverse = false;
 
     // Release the brake
-    if (brake) {
+    //if (brake) {
       digitalWrite(brkPin, LOW);
       brake = false;
-    }
+    //}
 
   // Reverse direction
-  } else if (pwmValue < 0 && !reverse) {
+  } else if (pwmValue < 0) { // && !reverse
     digitalWrite(dirPin, LOW);
     reverse = true;
 
     // Release the brake
-    if (brake) {
+    //if (brake) {
       digitalWrite(brkPin, HIGH);
       brake = false;
-    }
+    //}
+    
 
   // If there is no movement, engage the brake
-  } else if (brakeEnabled && !brake) {
+  } else{ //if (brakeEnabled && !brake) {
     digitalWrite(brkPin, LOW);
     digitalWrite(dirPin, LOW);
     brake = true;
