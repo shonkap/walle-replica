@@ -12,9 +12,9 @@ For the modified STLs for the custom build we have done you can go here: https:/
 
 Motors Used: https://www.amazon.com/uxcell-Motor-Encoder-111RPM-Ratio/dp/B0792SJ2ZP/ref=sr_1_37?dchild=1&keywords=uxcell+Gear+Motor+with+Encoder+DC+12V&qid=1607153132&s=hi&sr=1-37
 
+Motor Controller: https://www.amazon.com/Qunqi-2Packs-Controller-Stepper-Arduino/dp/B01M29YK5U/ref=sr_1_9?dchild=1&keywords=motor+controller&qid=1607153922&sr=8-9
 
 Axle Adapters: https://www.robotshop.com/en/0770-set-screw-d-hub-6mm-bore.html
-
 
 Led Driver for Led Panel: https://www.amazon.com/HiLetgo-MAX7219-Matrix-Display-Control/dp/B07W6KZR5D/ref=sr_1_11?dchild=1&keywords=led+matrix&qid=1607153320&sr=8-11
 
