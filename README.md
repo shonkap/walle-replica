@@ -15,6 +15,9 @@ Motors Used: https://www.amazon.com/uxcell-Motor-Encoder-111RPM-Ratio/dp/B0792SJ
 
 Axle Adapters: https://www.robotshop.com/en/0770-set-screw-d-hub-6mm-bore.html
 
+
+Led Driver for Led Panel: https://www.amazon.com/HiLetgo-MAX7219-Matrix-Display-Control/dp/B07W6KZR5D/ref=sr_1_11?dchild=1&keywords=led+matrix&qid=1607153320&sr=8-11
+
 ## Arduino Code (wall-e)
 Main program to control the motors and servos of the robot. Features include:
 1. An animation queue, keeping track of the next servo movements the robot needs to perform.
