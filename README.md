@@ -49,8 +49,7 @@ The web interface is programmed in Python and uses *Flask* to generate a server.
 ### Arduino
 
 #### Basic Installation
-#### Do NOT Follow wiring guide at this time!
-1. Do not follow!(Ensure that the wiring of the electronics matches the diagram shown below.) Will finish updating by 12/11!
+1. Ensure that the wiring of the electronics matches the diagram shown below.
 1. Download/clone the folder "wall-e" from the GitHub repository.
 1. Open `wall-e.ino` in the Arduino IDE; the files `animations.ino`, `MotorController.hpp` and `Queue.hpp` should automatically open on separate tabs of the IDE as well.
 1. Install the `Adafruit_PWMServoDriver.h` library
@@ -60,7 +59,7 @@ The web interface is programmed in Python and uses *Flask* to generate a server.
 1. Connect to the computer to the micro-controller with a USB cable. Ensure that the correct *Board* and *Port* are selected in the *Tools* menu.
 1. Upload the sketch to the micro-controller.
 
-#### NO! Do not follow this!
+#### This is the updated Wiring Diagram
 ![](/images/wall-e_wiring_diagram.jpg)
 *Diagram showing the wiring of the robot's electronic components*
 
