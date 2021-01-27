@@ -100,13 +100,13 @@ uint8_t serialLength = 0;
 
 // ****** SERVO MOTOR CALIBRATION *********************
 // Servo Positions:  Low,High
-int preset[][2] =  {{410,120},  // head rotation
-                    {532,178},  // neck top
-                    {120,310},  // neck bottom
-                    {465,271},  // eye right
-                    {278,479},  // eye left
-                    {340,135},  // arm left
-                    {150,360}}; // arm right
+int preset[][2] =  {{575,125},     //{{410,120},  // head rotation
+                    {575,125},     //{532,178},  // neck top
+                    {240,700},     //{120,310},  // neck bottom
+                    {575,125},     //{465,271},  // eye right
+                    {125,575},     //{278,479},  // eye left
+                    {510,125},     //{340,135},  // arm left
+                    {250,595}};    //{150,360}}; // arm right
 // *****************************************************
 
 // Servo Control - Position, Velocity, Acceleration
